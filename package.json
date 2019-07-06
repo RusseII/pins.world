@@ -8,10 +8,13 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.14",
     "apollo-link-http": "^1.5.5",
-    "gatsby-link": "^2.0.2",
+    "cesium": "^1.59.0",
     "gatsby": "^2.13.4",
     "gatsby-image": "^2.2.4",
+    "gatsby-link": "^2.0.2",
+    "gatsby-plugin-cesium": "^2.0.0",
     "gatsby-plugin-feed": "^2.3.2",
     "gatsby-plugin-google-analytics": "^2.1.1",
     "gatsby-plugin-manifest": "^2.2.1",
