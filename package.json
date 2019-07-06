@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "name": "pins.world",
+  "private": false,
+  "description": "Explore the world",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kyle Trusler & Russell Ratcliffe <kyletrussler@gmail.com> <russell@deephire.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
