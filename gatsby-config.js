@@ -1,5 +1,11 @@
 const fetch = require(`node-fetch`)
 const { createHttpLink } = require(`apollo-link-http`)
+const Cesium = require('cesium')
+Cesium.Ion.defaultAccessToken = process.env.CESIUM_KEY
+
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`
+});
 module.exports = {
   siteMetadata: {
     title: `pins.world`,
@@ -8,6 +14,7 @@ module.exports = {
     siteUrl: `https://pins.world`,
   },
   plugins: [
+    'gatsby-plugin-cesium',
     {
       resolve: 'gatsby-source-graphql', // <- Configure plugin
       options: {
