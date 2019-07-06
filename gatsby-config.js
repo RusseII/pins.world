@@ -6,9 +6,6 @@ module.exports = {
     author: `Russell Ratcliffe & Kyle Trusler`,
     description: `Explore the world.`,
     siteUrl: `https://pins.world`,
-    social: {
-      twitter: `russeii`,
-    },
   },
   plugins: [
     {
