@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { CesiumWidget } from 'cesium'
-import 'cesium/source/Widgets/CesiumWidget/CesiumWidget.css'
+import '../../node_modules/cesium/Source/Widgets/CesiumWidget/CesiumWidget.css';
 
 const world = () => {
   useEffect(() => new CesiumWidget('world'), [])
