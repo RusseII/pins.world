@@ -2,12 +2,12 @@ const fetch = require(`node-fetch`)
 const { createHttpLink } = require(`apollo-link-http`)
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `pins.world`,
+    author: `Russell Ratcliffe & Kyle Trusler`,
+    description: `Explore the world.`,
+    siteUrl: `https://pins.world`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `russeii`,
     },
   },
   plugins: [
@@ -75,11 +75,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `pins.world`,
+        short_name: `pins.world`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#2d64ea`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
